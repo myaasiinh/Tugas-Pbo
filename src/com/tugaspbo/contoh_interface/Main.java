@@ -1,5 +1,11 @@
 package com.tugaspbo.contoh_interface;
 
+/*
+Created at Thursday 11  March 2021
+Licensed @myaasiinh
+Tugas Pbo Materi Interface
+ */
+
 import java.util.Scanner;
 
 public class Main {
