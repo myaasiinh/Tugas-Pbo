@@ -37,7 +37,7 @@ public class Main {
             } else if (aksi.equalsIgnoreCase("4")) {
                 Yudha.turnDownPhone();
             } else if (aksi.equalsIgnoreCase("5")) {
-                System exit;
+                System.exit(5);
             } else {
                 System.out.println("Kamu salah pilih");
             }
