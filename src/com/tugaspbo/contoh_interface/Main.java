@@ -13,8 +13,8 @@ public class Main {
     public static void main(String[] args) {
 
         //Membuat objek Hp
-        Phone Redmi8A = new Xiaomi();
-        PhoneUser Yudha = new PhoneUser(Redmi8A);
+        Handphone Redmi8A = new Oppo();
+        PenggunaHandphone Yudha = new PenggunaHandphone(Redmi8A);
 
         //Coba nyalakan Hp
         Yudha.turnOnPhone();
@@ -30,7 +30,7 @@ public class Main {
             System.out.println("3.Perbesar Volume");
             System.out.println("4.Turunkun Volume");
             System.out.println("5.Keluar");
-            System.out.println("Pilih aksi");
+            System.out.println("Pejet salah satu pilihan :");
             aksi = input.nextLine();
 
 

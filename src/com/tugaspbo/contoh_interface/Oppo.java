@@ -7,12 +7,12 @@ Tugas Pbo Materi Interface(24 Januari 2021).
  */
 
 
-public class Xiaomi implements Phone {
+public class Oppo implements Handphone {
 
     private int volume;
     private boolean isPowerOn;
 
-    public Xiaomi() {
+    public Oppo() {
 
         this.volume = 50;
 
@@ -23,9 +23,9 @@ public class Xiaomi implements Phone {
     public void powerOn() {
 
         isPowerOn = true;
-        System.out.println("Handphone menyala");
-        System.out.println("Selamat datang di Xiaomi");
-        System.out.println("Android version 29 ");
+        System.out.println("Handphone Hidup");
+        System.out.println("Selamat datang di Oppo ");
+        System.out.println("Android version 28 ");
 
     }
 
